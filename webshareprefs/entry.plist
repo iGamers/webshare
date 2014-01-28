@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = WebSharePrefs;
+		cell = PSLinkCell;
+		detail = WSPrefsController;
+		icon = "prefsIcon.png";
+		isController = 1;
+		label = WebShare;
+	};
+}

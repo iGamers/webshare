@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.michaelpoole.webshare</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.michaelpoole.webshare.settingsChanged</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Contact</string>
+			<key>footerText</key>
+			<string>WebShare © 2014 Michael Poole</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Follow on Twitter</string>
+			<key>action</key>
+			<string>launchTwitter:</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Support/Feedback</string>
+			<key>action</key>
+			<string>emailSupport:</string>
+			<key>icon</key>
+			<string>contact.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Donate</string>
+			<key>action</key>
+			<string>launchDonation:</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>WebShare</string>
+</dict>
+</plist>

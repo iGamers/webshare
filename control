@@ -1,0 +1,9 @@
+Package: com.michaelpoole.webshare
+Name: WebShare
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Easily share images from websites.
+Maintainer: Michael Poole
+Author: Michael Poole
+Section: Tweaks
